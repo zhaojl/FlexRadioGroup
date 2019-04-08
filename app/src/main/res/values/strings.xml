@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">筛选菜单</string>
     <string name="filter">筛选</string>
+
+    <string name="select_type_charge">充电类型</string>
+    <string name="select_type_brand">全部品牌</string>
+    <string name="select_type_title">充电站筛选</string>
+    <string name="select_type_label_brand">运营商</string>
+    <string name="select_type_label_interface">接口类型</string>
+    <string name="select_type_label_free">空闲情况</string>
+    <string name="select_type_reset">重置</string>
+    <string name="select_type_conform">完成</string>
 </resources>

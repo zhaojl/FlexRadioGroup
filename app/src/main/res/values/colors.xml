@@ -18,4 +18,14 @@
     <color name="black87">#DD000000</color>
     <!--Secondary text-->
     <color name="black54">#89000000</color>
+
+    <color name="select_type_bs_bg">#88000000</color>
+    <color name="select_type_group_bg">#FFFFFFFF</color>
+    <color name="select_type_label_tc">#FF000000</color>
+    <color name="select_type_btn_bg_normal">#AFB5BD</color>
+    <color name="select_type_btn_bg_pressed_start">#5000E1</color>
+    <color name="select_type_btn_bg_pressed_end">#4521F7</color>
+    <color name="select_type_bs_tc_pressed">#FFFFFFFF</color>
+    <color name="select_type_item_tc_checked">#FFFFFFFF</color>
+    <color name="select_type_item_tc_unchecked">#FF031626</color>
 </resources>

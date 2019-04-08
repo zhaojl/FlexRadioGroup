@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_filter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/select_type_bs_bg">
+
+    <LinearLayout
+        android:layout_width="861px"
+        android:layout_height="1194px"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingTop="73px"
+        android:paddingLeft="70px"
+        android:paddingRight="70px"
+        android:paddingBottom="72px"
+        android:background="@color/select_type_group_bg">
+
+        <TextView
+            android:layout_width="221px"
+            android:layout_height="46px"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/select_type_title"
+            android:textColor="@color/select_type_label_tc"
+            android:textSize="38px"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68px"
+            android:gravity="center"
+            android:text="@string/select_type_label_free"
+            android:textColor="@color/select_type_label_tc"
+            android:textSize="31px" />
+
+        <com.ff.lbs.view.FlexRadioGroup
+            android:id="@+id/fbl_filter_free"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28px"
+            app:flexWrap="wrap"
+            app:flexDirection="row"
+            app:justifyContent="space_between"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="65px"
+            android:text="@string/select_type_label_interface"
+            android:textColor="@color/select_type_label_tc"
+            android:textSize="31px"/>
+
+        <com.ff.lbs.view.FlexRadioGroup
+            android:id="@+id/fbl_filter_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28px"
+            app:flexWrap="wrap"
+            app:flexDirection="row"
+            app:justifyContent="space_between"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="65px"
+            android:text="@string/select_type_label_brand"
+            android:textColor="@color/select_type_label_tc"
+            android:textSize="31px" />
+
+        <com.itzyf.flexradiogroup.FlexRadioGroup2
+            android:id="@+id/fbl_filter_brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28px"
+            app:flexWrap="wrap"
+            app:flexDirection="row"
+            app:justifyContent="space_between"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="65px">
+
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="334px"
+                android:layout_height="80px"
+                android:text="@string/select_type_reset"
+                android:fontFamily="PingFangSC-Regular"
+                android:background="@drawable/select_type_bs_btn"
+                android:textColor="@drawable/select_type_item_tc"
+                android:textSize="24px"/>
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="334px"
+                android:layout_height="80px"
+                android:layout_marginLeft="54px"
+                android:text="@string/select_type_conform"
+                android:fontFamily="PingFangSC-Regular"
+                android:background="@drawable/select_type_btn_bg_pressed"
+                android:textColor="@color/select_type_bs_tc_pressed"
+                android:textSize="24px"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
